@@ -1,0 +1,7 @@
+timezone: "America/Los_Angeles"
+scan_start_pt: "06:00"
+active_window_start_pt: "06:30"
+active_window_end_pt: "08:00"
+flatten_time_pt: "12:45"
+scan_interval_seconds: 30
+monitor_interval_seconds: 5

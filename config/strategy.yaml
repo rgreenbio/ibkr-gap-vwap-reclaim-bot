@@ -1,0 +1,23 @@
+gap_down_min_pct: 5.0
+price_min: 10.0
+
+entry_window_start_pt: "06:30"
+entry_window_end_pt: "08:00"
+flatten_time_pt: "12:45"
+
+stretch:
+  rsi_period: 5
+  rsi_max: 25
+  min_distance_below_vwap_pct: 0.5
+
+entry:
+  trigger: "vwap_reclaim"
+  reclaim_bar_timeframe: "1m"
+
+stop:
+  type: "below_setup_low"
+  buffer_pct: 0.1
+
+target:
+  type: "fixed_r_multiple"
+  r_multiple: 2.0
